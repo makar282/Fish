@@ -36,8 +36,8 @@
         }
 
         ///<summary>
-        ///Метод для получения информации о рыбе<
-        ////summary>
+        ///Метод для получения информации о рыбе
+        ///<summary>
         public string GetFishInfo()
         {
             return "Название: " + Name + ", Хищность: " + _isPredator + ", Травоядность: " + _isHerbivorous;
