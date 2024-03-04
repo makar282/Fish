@@ -1,0 +1,20 @@
+﻿<Window x:Class="LoadingForm.LoadingWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:LoadingForm"
+        mc:Ignorable="d"
+        Title="Generate values" Height="450" Width="800">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <ProgressBar x:Name="ProgressBar" Grid.Row="1" HorizontalAlignment="Stretch" VerticalAlignment="Center" Height="17" Margin="10" Value="0"/>
+        <TextBlock Grid.Row="1" Text="{Binding ElementName=ProgressBar, Path=Value, StringFormat={}}" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+        <Button x:Name="ButtonAction" Content="Cancel" Margin="192,25,191,35" Grid.Row="2" Click="ButtonAction_Click"/>
+        <Label x:Name="LabelGenerating" Content="Generating..." HorizontalAlignment="Center" VerticalAlignment="Top" Height="40" Width="519" FontSize="20" HorizontalContentAlignment="Center" Margin="0,65,0,0"/>
+    </Grid>
+</Window>

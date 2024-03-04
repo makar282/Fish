@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows7.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\FishesFactories\FishesFactories.csproj" />
+    <ProjectReference Include="..\Fish\Fish.csproj" />
+	<ProjectReference Include="..\LoadingForm\LoadingForm.csproj" />  
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="Fish-Forms\FreshwaterFishWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Fish-Forms\PredatorFishWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+
+</Project>

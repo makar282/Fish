@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Fishes.Fish">
+    <Position X="3.75" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAIAACAAAAgIAAAAIAAAUBggAAAEAAAIAAAAIABBA=</HashCode>
+      <FileName>Fish.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Fishes.FishFood">
+    <Position X="1.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAIAAAAAAECAAAAAAAAIAgEQAEAAAAAAAAAAAEA=</HashCode>
+      <FileName>FishFood.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Fishes.FreshwaterFish">
+    <Position X="5" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABAAAAAAAAEAAAgAAgkAAAAAAAAAAAAA=</HashCode>
+      <FileName>FreshwaterFish.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Fishes.HerbivorousFish">
+    <Position X="0.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAAAAAAAIAAAAAAAAAAgAAAEAAAAAAAAAAAAA=</HashCode>
+      <FileName>HerbivorousFish.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Fishes.PredatorFish">
+    <Position X="3" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAEAAAAAAAAAAgAAAEAAAAAAAAAAAEA=</HashCode>
+      <FileName>PredatorFish.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Fishes.SaltwaterFish">
+    <Position X="7.25" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABAAAAAAAAAABAgAAAEAAAAAAAAACQAA=</HashCode>
+      <FileName>SaltwaterFish.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Fishes.WaterForFish">
+    <Position X="6" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAkAAAAAIAAAAAAAABAAAAAAAgAAAEAAAAQAAAAEAAA=</HashCode>
+      <FileName>WaterForFish.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="Fishes.Families" Collapsed="true">
+    <Position X="9.75" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BCAAAAAAAIAEAAAABAAAAAAgAAAgAAgAAAAAAAgAgAA=</HashCode>
+      <FileName>Families.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Fishes.FoodType" Collapsed="true">
+    <Position X="11.5" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAAAAAABAAAAAAAAggABAAAABAAAAAAAAgAAA=</HashCode>
+      <FileName>FoodType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Fishes.Orders" Collapsed="true">
+    <Position X="9.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAQAAAAEAEAAAQBAAAAAAAAAAAAgQAAAAAACAACAA=</HashCode>
+      <FileName>Orders.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Fishes.Reproductions" Collapsed="true">
+    <Position X="11.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAAAAAAgAQAAAAAgEAAAAAAAAABAAAIAAAAAAA=</HashCode>
+      <FileName>Reproductions.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
